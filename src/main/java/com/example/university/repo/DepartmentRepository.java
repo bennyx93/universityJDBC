@@ -7,11 +7,7 @@ import org.springframework.data.repository.query.Param;
 
 import java.util.Optional;
 
-/**
- * DataSource Management for the Departments at the University.
- * <p>
- * Created by maryellenbowman.
- */
+
 public interface DepartmentRepository extends CrudRepository<Department, String> {
 
     @Query("SELECT DEPARTMENT.id AS id, DEPARTMENT.name AS name, chair.department AS chair_department, chair.name AS chair_name " +

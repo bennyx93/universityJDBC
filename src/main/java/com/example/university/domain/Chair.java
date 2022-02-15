@@ -3,11 +3,7 @@ package com.example.university.domain;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 
-/**
- * Class representing a chairperson of a department.
- * <p>
- * Created by maryellenbowman
- */
+
 @Table("CHAIR")
 public class Chair {
     @Id

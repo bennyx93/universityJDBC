@@ -6,12 +6,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * Main Spring Boot Class for the University Application.
- * On Startup Initialize Database with Chair and Departments.
- * <p>
- * Created by maryellenbowman
- */
+
 @SpringBootApplication
 public class JdbcApplication implements CommandLineRunner {
 

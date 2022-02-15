@@ -3,11 +3,7 @@ package com.example.university.domain;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 
-/**
- * JDBC Entity for a Department of study at the University.
- * <p>
- * Created by maryellenbowman
- */
+
 @Table(value = "DEPARTMENT")
 public class Department {
     @Id
